@@ -37,7 +37,7 @@ done
 LAST_MODIFICATION=$(stat -f "%Sm" -t "%Y-%m-%d %H:%M:%S" "$1")
 
 # Démarre le processus Python et enregistre son PID
-function startPythonProcess() {
+function startProcess() {
     $COMPILATOR $FILE &
     SCRIPT_PID=$!
     echo "Processus Python démarré avec PID $SCRIPT_PID"
@@ -60,7 +60,7 @@ function killThenAddProcessus() {
         message=1
     fi
 }
-startPythonProcess "$FILE"
+startProcess "$FILE"
 while true; do
     killThenAddProcessus "$FILE"
     sleep 1
