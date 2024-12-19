@@ -4,7 +4,7 @@
 
 ## Description
 
-`AutoCompiler` est un script Bash conçu pour surveiller les modifications d'un fichier spécifique et redémarrer automatiquement le processus de compilation ou d'exécution avec le compilateur ou interpréteur spécifié. Cet outil est utile pour les développeurs travaillant dans des langages comme PHP, Python, ou d'autres, où les fichiers sources doivent être rechargés fréquemment.
+`ZIM` est un script Bash conçu pour surveiller les modifications d'un fichier spécifique et redémarrer automatiquement le processus de compilation ou d'exécution avec le compilateur ou interpréteur spécifié. Cet outil est utile pour les développeurs travaillant dans des langages comme PHP, Python, ou d'autres, où les fichiers sources doivent être rechargés fréquemment.
 
 ---
 
