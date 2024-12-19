@@ -36,21 +36,21 @@
 
 The script is structured to perform several essential tasks to monitor a file and restart a compilation or execution process when the file is modified. Here are the main sections of the script:
 
-    - Argument Validation:
+- Argument Validation:
         Validates the arguments provided when running the script.
         Ensures that the correct parameters are passed for the source file and compiler/interpreter.
 
-   - Modification Monitoring:
+- Modification Monitoring:
         Uses the stat command to check changes in the file’s modification date.
         Allows detection of changes in the source file to determine whether the process needs to be restarted.
 
-    - Process Management:
+ - Process Management:
         Launches the compiler or interpreter for the specified file, for example by running php8 or python3 depending on the provided argument.
         If a modification is detected, the current process is restarted to use the updated version of the file.
 
-   - Infinite Loop:
-        The script continues to monitor the file in an infinite loop.
-        It performs checks every second (by default) to detect any changes.
+- Infinite Loop:
+     The script continues to monitor the file in an infinite loop.
+     It performs checks every second (by default) to detect any changes.
 
 ### Limitations
 
