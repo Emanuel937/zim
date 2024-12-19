@@ -56,17 +56,17 @@ The script is structured to perform several essential tasks to monitor a file an
 
 Although this script is useful in many cases, it has certain limitations:
 
-    - Compatibility:
+- Compatibility:
         The script uses Linux/macOS-specific commands like stat and kill, which may limit its compatibility with systems like Windows.
-    - Unmanaged Complex Cases:
+- Unmanaged Complex Cases:
         The script does not handle complex cases such as multiple file dependencies or files included within the monitored file.
 
 ### Contribution
 
 Contributions are welcome! If you find bugs or would like to add features, feel free to:
 
-    Submit a pull request
-    Open an issue
+Submit a pull request
+Open an issue
 
 We encourage users to improve the script by suggesting improvements or bug fixes.
 License
