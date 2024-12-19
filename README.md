@@ -1,4 +1,4 @@
-# AutoCompiler Script
+# AutoCompiler Script - zim
 
 **Auteur : Emanuel Abizimi**
 
