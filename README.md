@@ -28,4 +28,4 @@
 
 1. Téléchargez le script et assurez-vous qu'il est exécutable :
    ```bash
-   chmod +x AutoCompiler.sh
+   chmod +x zim
