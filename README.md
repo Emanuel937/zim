@@ -74,4 +74,3 @@ License
 This project is distributed under the MIT license.
 
 
-This is the full translation of the text you provided, with all sections and content preserved exactly as they were in the original French `README.md` file.
